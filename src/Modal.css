@@ -1,0 +1,100 @@
+.modal-styles{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 200px;
+    z-index: 1000;
+    box-shadow: rgba(93, 95, 233, 0.4) -5px 5px, rgba(111, 51, 209, 0.3) -10px 10px, rgba(139, 102, 241, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(211, 44, 150, 0.05) -25px 25px;
+    
+  }
+  
+  .overlay-styles{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 1000;
+    
+  }
+  
+  .modal-styles button{
+    background-color: #fff;
+    color: black;
+    border: 1px solid;
+    padding: 10px;
+  
+  }
+  
+  .modal-name{
+    background-color: #fff;
+    color: black;
+  }
+  
+  .modal-name span{
+    color: #ac32e4;
+    background-color: #fff;
+  }
+  
+  .modal-img{
+    background-color: #fff;
+  
+  }
+  
+  .modal-price{
+    background-color: #fff;
+    color: black;
+  }
+  
+  .modal-price span{
+    background-color: #fff;
+    color: #ac32e4;
+  }
+  
+  .modal-price-change-green{
+    background-color: #fff;
+    color: green;
+  }
+  
+  .modal-price-change-green span{
+    background-color: #fff;
+    color: #ac32e4;
+  }
+  
+  .modal-price-change-red{
+    background-color: #fff;
+    color: red;
+  }
+  
+  
+  .modal-price-change-red span{
+    background-color: #fff;
+    color: #ac32e4;
+  }
+  
+  
+  
+  .modal-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #fff;
+    align-items: center;
+    
+  }
+  
+  .modal-close{
+    cursor: pointer;
+  }
+  .modal-close:hover{
+    cursor: pointer;
+    background-color: rgb(245, 244, 244);
+  }
+  
+  .modal-container img {
+    height: 150px;
+    width: 150px
+  }
